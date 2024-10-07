@@ -1,22 +1,10 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 
-class SettingScreen extends StatefulWidget {
-  const SettingScreen({super.key});
+// class CartScreen extends StatelessWidget {
+//   const CartScreen({super.key});
 
-  @override
-  State<SettingScreen> createState() => _SettingScreenState();
-}
-
-class _SettingScreenState extends State<SettingScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Cart'),
-      ),
-      body: const Center(
-        child: Text('Cart'),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container();
+//   }
+// }
